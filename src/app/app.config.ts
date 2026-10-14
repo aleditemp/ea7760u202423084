@@ -20,7 +20,7 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideHttpClient(),
     provideTranslateService({
-      loader: provideTranslateHttpLoader({ prefix: './i18n/', suffix: '.json' }),
+      loader: provideTranslateHttpLoader({ prefix: './assets/i18n/', suffix: '.json' }),
       fallbackLang: 'en',
       lang: 'en',
     }),
