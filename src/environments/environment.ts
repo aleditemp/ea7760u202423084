@@ -1,8 +1,8 @@
 export const environment = {
   production: true,
   platformProviderApiBaseUrl: 'http://localhost:3000',
-  platformProviderSportsCentersEndpointPath: '/charging-stations',
-  platformProviderReservationsEndpointPath: '/vehicle-charges',
+  platformProviderStationsEndpointPath: '/charging-stations',
+  platformProviderChargesEndpointPath: '/vehicle-charges',
 
   vehicleProviderApiBaseUrl: 'https://vpic.nhtsa.dot.gov/api',
   vehicleProviderVehicleTypesEndpointPath:
