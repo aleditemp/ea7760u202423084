@@ -15,3 +15,5 @@ export interface VehicleChargesResource extends BaseResource {
 export interface VehicleChargesResponse extends BaseResponse {
   charges: VehicleChargesResource[];
 }
+
+export type VehicleChargeRequest = Omit<VehicleChargesResource, 'id'>;
