@@ -9,7 +9,7 @@ export class VehicleCharges implements BaseEntity {
   #kwDemand: number;
   #chargingPortType: string;
   #isFastCharge: boolean;
-  #registeredAt: Date;
+  #registeredAt: string;
 
   constructor(props: {
     id: number;
@@ -20,7 +20,7 @@ export class VehicleCharges implements BaseEntity {
     kwDemand: number;
     chargingPortType: string;
     isFastCharge: boolean;
-    registeredAt: Date;
+    registeredAt: string;
   }) {
     this.#id = props.id;
     this.#stationId = props.stationId;
@@ -98,11 +98,11 @@ export class VehicleCharges implements BaseEntity {
     this.#isFastCharge = value;
   }
 
-  get registeredAt(): Date {
+  get registeredAt(): string {
     return this.#registeredAt;
   }
 
-  set registeredAt(value: Date) {
+  set registeredAt(value: string) {
     this.#registeredAt = value;
   }
 }
