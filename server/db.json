@@ -1,0 +1,120 @@
+{
+  "charging-stations": [
+    {
+      "id": "STN-001",
+      "stationName": "Giga Texas Supercharger Hub",
+      "vehicleType": "car",
+      "maxGridKwCapacity": 500.0,
+      "stallsAvailable": 8,
+      "isActive": true,
+      "locationCoordinates": {
+        "lat": 30.2223,
+        "lng": -97.6171
+      }
+    },
+    {
+      "id": "STN-002",
+      "stationName": "Fremont Logistics Mega Depot",
+      "vehicleType": "truck",
+      "maxGridKwCapacity": 750.0,
+      "stallsAvailable": 4,
+      "isActive": true,
+      "locationCoordinates": {
+        "lat": 37.4922,
+        "lng": -121.9447
+      }
+    },
+    {
+      "id": "STN-003",
+      "stationName": "Hawthorne Fleet Station",
+      "vehicleType": "multipurpose",
+      "maxGridKwCapacity": 350.0,
+      "stallsAvailable": 6,
+      "isActive": true,
+      "locationCoordinates": {
+        "lat": 33.9207,
+        "lng": -118.3278
+      }
+    },
+    {
+      "id": "STN-004",
+      "stationName": "Palo Alto Tech Park Charger",
+      "vehicleType": "motorcycle",
+      "maxGridKwCapacity": 120.0,
+      "stallsAvailable": 5,
+      "isActive": false,
+      "locationCoordinates": {
+        "lat": 37.4419,
+        "lng": -122.143
+      }
+    }
+  ],
+  "vehicle-charges": [
+    {
+      "id": 1,
+      "stationId": "STN-001",
+      "vehicleType": "car",
+      "makeId": 474,
+      "makeName": "TESLA",
+      "kwDemand": 150.0,
+      "chargingPortType": "NACS",
+      "isFastCharge": true,
+      "registeredAt": "2026-10-13 14:30:00"
+    },
+    {
+      "id": 2,
+      "stationId": "STN-001",
+      "vehicleType": "car",
+      "makeId": 448,
+      "makeName": "TOYOTA",
+      "kwDemand": 75.0,
+      "chargingPortType": "CCS",
+      "isFastCharge": false,
+      "registeredAt": "2026-10-13 15:10:15"
+    },
+    {
+      "id": 3,
+      "stationId": "STN-001",
+      "vehicleType": "car",
+      "makeId": 460,
+      "makeName": "FORD",
+      "kwDemand": 120.0,
+      "chargingPortType": "NACS",
+      "isFastCharge": true,
+      "registeredAt": "2026-10-13 15:45:22"
+    },
+    {
+      "id": 4,
+      "stationId": "STN-002",
+      "vehicleType": "truck",
+      "makeId": 474,
+      "makeName": "TESLA",
+      "kwDemand": 350.0,
+      "chargingPortType": "NACS",
+      "isFastCharge": true,
+      "registeredAt": "2026-10-13 12:00:00"
+    },
+    {
+      "id": 5,
+      "stationId": "STN-002",
+      "vehicleType": "truck",
+      "makeId": 10834,
+      "makeName": "RIVIAN",
+      "kwDemand": 200.0,
+      "chargingPortType": "CCS",
+      "isFastCharge": true,
+      "registeredAt": "2026-10-13 13:25:40"
+    },
+    {
+      "id": 6,
+      "stationId": "STN-003",
+      "vehicleType": "multipurpose",
+      "makeId": 475,
+      "makeName": "ACURA",
+      "kwDemand": 50.0,
+      "chargingPortType": "CCS",
+      "isFastCharge": false,
+      "registeredAt": "2026-10-13 16:05:10"
+    }
+  ]
+}
